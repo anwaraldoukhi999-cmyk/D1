@@ -1,0 +1,130 @@
+
+.journey {
+    padding: 80px 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   ;
+}
+
+.journey-content {
+    max-width: 850px;
+    padding: 45px;
+
+    background: linear-gradient(
+        145deg,
+        #1b1b1b,
+        #111111
+    );
+
+    border: 1px solid #292929;
+    border-radius: 18px;
+
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+
+    transition: 0.4s ease;
+}
+
+.journey-content:hover {
+    transform: translateY(-6px);
+    border-color: #0072ff;
+
+    box-shadow:
+        0 15px 40px rgba(0, 114, 255, 0.12);
+}
+
+.journey-tag {
+    display: inline-block;
+    color: #00c6ff;
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.journey h2 {
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.journey h2 span {
+    background: linear-gradient(
+        90deg,
+        #00c6ff,
+        #0072ff
+    );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.journey h3 {
+    color: #aaa;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.journey p {
+    color: #bdbdbd;
+    font-size: 15px;
+    line-height: 1.9;
+    margin-bottom: 18px;
+}
+
+.journey strong {
+    color: #00c6ff;
+}
+
+.journey-footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 30px;
+}
+
+.journey-footer span {
+    padding: 9px 18px;
+
+    border: 1px solid #0072ff;
+    border-radius: 30px;
+
+    color: #00c6ff;
+    font-size: 13px;
+
+    background: rgba(0, 114, 255, 0.08);
+
+    transition: 0.3s ease;
+}
+
+.journey-footer span:hover {
+    background: linear-gradient(
+        90deg,
+        #00c6ff,
+        #0072ff
+    );
+
+    color: white;
+    transform: translateY(-3px);
+}
+
+/* Responsive Design */
+
+@media (max-width: 600px) {
+    .journey {
+        padding: 40px 5%;
+    }
+
+    .journey-content {
+        padding: 25px;
+    }
+
+    .journey h2 {
+        font-size: 27px;
+    }
+
+    .journey p {
+        font-size: 14px;
+    }
+}
